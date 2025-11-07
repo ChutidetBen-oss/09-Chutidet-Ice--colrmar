@@ -30,38 +30,12 @@
 
 	<body class="w-screen min-h-dvh font-inter">
 		<header >
-			<nav class="hidden">
-				<div class="flex justify-evenly items-center">
-					<div class="flex justify-items-start items-center">
+			<nav>
+				<div class="flex justify-evenly items-center md:flex md:justify-between md:items-center">
+					<div class="flex justify-items-start items-center md:flex md:justify-start md:items-">
 						<a href=""></a>
 							<img src="/images/ic-logo.svg" alt="ic-logo" >
-						<p class="hidden md:block">COLMAR ACADEMY</p>
-					</div>
-					<div>
-						<a href=""></a>
-							<img src="/images/ic-on-campus.svg" alt="ic-on-campus" class="md:hidden">
-							<p class="hidden md:block">On campus</p>
-					</div>
-					<div>
-						<a href=""></a>
-							<img src="/images/ic-online.svg" alt="ic-online" class="md:hidden">
-						<div>
-							<p class="hidden md:block">Online For companies</p>
-						</div>
-					</div>
-					<div class="px-6">
-						<a href=""></a>
-							<img src="/images/ic-login.svg" alt="ic-login" class="md:hidden">
-						<p class="hidden md:block" >Sign in</p>
-					</div>
-				</div>
-			</nav>
-			<nav class="md:hidden">
-				<div class="flex justify-evenly items-center">
-					<div class="flex justify-items-start items-center">
-						<a href=""></a>
-							<img src="/images/ic-logo.svg" alt="ic-logo" >
-						<p class="hidden md:block">COLMAR ACADEMY</p>
+						<p class="hidden md:block"><strong>COLMAR</strong>ACADEMY</p>
 					</div>
 					<div>
 						<a href=""></a>
@@ -85,79 +59,170 @@
 		</header>
 		<main>
 			<section class="bg-slate-200 md:flex md:justify-evenly items-center" >
-				<div>
-					<img src="/images/banner.jpg" alt="peopleReadingBook"></img>
-				</div>
-				<div class="flex flex-wrap flex-col">
-					<div class="pl-4 pt-4 text-2xl font-bold">
-						<p >Learn something <br class="">new everyday</p>
+				<div class="md:flex md:justify-center md:items-center md:content-center">
+					<div class="md:w-[60%] md:mx-6 md:my-8">
+						<img src="/images/banner.jpg" alt="peopleReadingBook" ></img>
 					</div>
-					<div class="pl-4 pt-8 pb-6 font-medium">
-					<p>Lorem ipsum dolor sit <br class="">amet consectetur adipisicing elit.</p>
-					</div>
-					<div class="flex justify-center items-center pt-3 px-4 ">
-						<buttom class="w-full p-4 text-center  bg-slate-500 text-stone-50 mb-8">Start here</buttom>
+					<div class="flex flex-wrap flex-col m-0 md:w-[40%]">
+						<div class="pl-4 pt-4 text-2xl font-bold md:text-5xl">
+							<p >Learn something <br class="">new everyday</p>
+						</div>
+						<div class="pl-4 pt-8 pb-6 font-medium">
+						<p>Lorem ipsum dolor sit <br class="">amet consectetur adipisicing elit.</p>
+						</div>
+						<div class="flex justify-center items-center pt-3 px-4 md:p-4">
+							<buttom class="w-full p-4 text-center  bg-slate-500 text-stone-50 mb-8">Start here</buttom>
+						</div>
 					</div>
 				</div>
 			</section>
-			<section class="p-4">
-				<div>
-					<img src="/images/information-orientation-mobile.jpg" alt="">
+			<section class=" md:flex md:justify-between md:items-center">
+				<div class="hidden md:block md:w-[60%]">
+					<div class="md:flex md:justify-start md:items-center md:flex-col md:content-start">
+						<div class="md:flex md:justify-start md:items-start md:mt-8 md:ml-6 md:mb-6" >
+							<img src="/images/information-main.jpg" alt="someOneSmlie">
+						</div>
+						<div class="md:mx-6">
+							<div>
+								<p class="text-3xl md:mb-4">It doesn't hurt to keep parcticing</p>
+							</div>
+							<div>
+								<p class="md:mb-8">"Curabitur vitae libero in ipsium consequat. Aliquam et commodo lectus, nec consequat neque Sed non accumsan urna. Phesellus sed consequat ex. Etiam eget magna laoreet, dolor, tristique ligulia.</p>
+							</div>
+							<div>
+								<p class="md:mb-8">Emanuel, Sr. Strategist at Hiring.com</p>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="p-4">
-					<p class="text-2xl font-semibold">Orientation</p>
-					<p class="text-sm font-light text-stone-400 py-2">Tue 10/11 & Wed 10/12: 8am-3pm</p>
-					<button class="text-blue-400"><a href="">Read more</a></button>
-				</div>
-				<div>
-					<img src="/images/information-campus-mobile.jpg" alt="">
-				</div>
-				<div class="p-4">
-				<p class="text-2xl font-semibold">Our campus</pc>
-				<p class="text-sm font-light text-stone-400 py-2">Find which campus is close by you</p>
-				<button class="text-blue-400"><a href="" >Read more</a></button>
-				</div>
-				<div>
-					<img src="/images/information-guest-lecture-mobile.jpg" alt="">
-				</div >
-				<div class="p-4">
-				<p class="text-2xl font-semibold">Special guest lecture</p>
-				<p class="text-sm font-light text-stone-400 py-2">Join a keynote with Oliver Sank about <br>music in medical treatment</p>
-				<button class="text-blue-400"><a href="">Read more</a></button>
+				<div class="md:w-[40%]">
+					<div class="md:flex md:justify-between md:items-center md:content-center">
+						<div class="md:w-[35%] md:p-4 ">
+							<img src="/images/information-orientation-mobile.jpg" alt="" class="block md:hidden">
+							<img src="/images/information-orientation.jpg" alt="" class="hidden md:block">
+						</div>
+						<div class="p-4 md:w-[65%]">
+							<p class="text-2xl font-semibold">Orientation</p>
+							<p class="text-sm font-light text-stone-400 py-2">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+							<button class="text-blue-400"><a href="">Read more</a></button>
+						</div>
+					</div>
+					<div class="md:flex md:justify-between md:items-center md:content-center">
+						<div class="md:w-[35%] md:p-4" >
+							<img src="/images/information-campus-mobile.jpg" alt="" class="block md:hidden">
+							<img src="/images/information-campus.jpg" alt="" class="hidden md:block">
+						</div>
+						<div class="p-4 md:w-[65%]">
+						<p class="text-2xl font-semibold">Our campus</pc>
+						<p class="text-sm font-light text-stone-400 py-2">Find which campus is close by you</p>
+						<button class="text-blue-400"><a href="" >Read more</a></button>
+						</div>
+					</div>
+					<div class="md:flex md:justify-between md:items-center md:content-center ">
+						<div class="md:w-[35%] md:p-4">
+							<img src="/images/information-guest-lecture-mobile.jpg" alt="" class="block md:hidden">
+							<img src="/images/information-guest-lecture.jpg" alt="" class="hidden md:block">
+						</div >
+						<div class="p-4 md:w-[65%]">
+						<p class="text-2xl font-semibold">Special guest lecture</p>
+						<p class="text-sm font-light text-stone-400 py-2">Join a keynote with Oliver Sank about <br>music in medical treatment</p>
+						<button class="text-blue-400"><a href="">Read more</a></button>
+						</div>
+					</div>
 				</div>
 			</section>
-			<section class="flex justify-center items-center flex-col">
-				<p class="pt-4 text-4xl font-medium ">Start learning</p>
-				<div class="w-full p-4">
-				<buttom class="w-full py-4 m-2">
-					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Software engigeering</p>
-				</buttom>
-				<buttom class="w-full py-4 m-2">
-					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Computer art</p>
-				</buttom>
-				<buttom class="w-full py-4 m-2">
-					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Design</p>
-				</buttom>
-				<buttom class="w-full py-4 m-2">
-					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Data</p>
-				</buttom>
-				<buttom class="w-full py-4 m-2" >
-					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Businees</p>
-				</buttom>
-				<buttom class="w-full py-4 m-2" >
-					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Marketing</p>
-				</buttom>
+			<section class="flex justify-center items-center flex-col  bg-gray-300">
+				<p class="mt-8 text-4xl font-medium ">Start learning</p>
+				<div class="w-full p-4  md:items-center md:px-[72px] md:py-[32px] md:grid grid-cols-1 md:grid-cols-3 md:gap-8 " >
+					<div class="w-full p-4 bg-gray-50 text-stone-900 font-medium m-2 ">
+						<div class="hidden md:block md:h-auto md:m-4"><img src="/images/course-software.jpg" alt=""></div>
+						<div class="md:pl-4">
+							<div ><p class="md:text-2xl md:mb-4">Software engigeering</p></div>
+							<div class="hidden md:block md:mb-4">COURSES</div>
+							<div class="hidden md:block md:text-stone-400">Wed Development, Mobile <br> Development,iOT, APIs
+							</div>
+						</div>
+					</div>
+					<div class="w-full p-4 bg-gray-50 text-stone-900 font-medium m-2">
+						<div class="hidden md:block md:h-auto md:m-4"><img src="/images/course-computer-art.jpg" alt=""></div>
+						<div class="md:pl-4">
+							<div><p class=" md:text-2xl md:mb-4" >Computer art</p></div>
+							<div class="hidden md:block md:mb-4">COURSES</div>
+							<div class="hidden md:block md:text-stone-400">Imaging & Design, Web Design,<br> Motion Graphics & Visual Effects, <br>Computor Animation
+							</div>
+						</div>
+					</div>
+					<div class="w-full p-4 bg-gray-50 text-stone-900 font-medium m-2">
+						<div class="hidden md:block md:h-auto md:m-4"><img src="/images/course-design.jpg" alt=""></div>
+						<div class="md:pl-4">
+							<p class=" md:text-2xl md:mb-4">Design</p>
+							<div class="hidden md:block md:mb-4">COURSES</div>
+							<div class="hidden md:block md:text-stone-400">User Experience Design, User Research, Visual Design</div>
+						</div>
+					</div>
+					<div class="w-full p-4 bg-gray-50 text-stone-900 font-medium m-2">
+						<div class="hidden md:block md:h-auto md:m-4"><img src="/images/course-data.jpg" alt=""></div>
+						<div class="md:pl-4">	
+							<p class=" md:text-2xl md:mb-4">Data</p>
+							<div class="hidden md:block md:mb-4">COURSES</div>
+							<div class="hidden md:block md:text-stone-400">Data Science, Big Data, SQL, Data, <br>
+							Visualization</div>
+						</div>
+					</div>
+					<div class="w-full p-4  bg-gray-50 text-stone-900 font-medium m-2" >
+						<div class="hidden md:block md:h-auto md:m-4"><img src="/images/course-business.jpg" alt=""></div>
+						<div class="md:pl-4">
+							<p class=" md:text-2xl md:mb-4">Businees</p>
+							<div class="hidden md:block md:mb-4">COURSES</div>
+							<div class="hidden md:block md:text-stone-400">Produxt Development, Business <br>Development, Startup</div>
+						</div>
+					</div>
+					<div class="w-full p-4 bg-gray-50 text-stone-900 font-medium m-2" >
+						<div class="hidden md:block md:h-auto md:m-4"><img src="/images/course-marketing.jpg" alt=""></div>
+						<div class="md:pl-4">
+							<p class=" md:text-2xl md:mb-4">Marketing</p>
+							<div class="hidden md:block md:mb-4">COURSES</div>
+							<div class="hidden md:block md:text-stone-400">Analytics, Coutent Markting,<br>Mobile Marketing</div>
+						</div>
+					</div>
 				</div>
 			</section>
 			<section>
 				<p class="w-full p-4 text-center text-4xl font-medium bg-gray-200 text-stone-900 ">Thesis exhibits</p>
-				<p>
-					<video src="/videos/thesis.mp4"></video>
-				</p>
+				<div  class="md:flex md:justify-evenly md:items-center">
+					<div class="md:w-[60%] md:mx-6 md:my-8">
+						<video src="/videos/thesis.mp4"></video>
+						<div class="hidden md:block md:m-4">
+							<div class="hidden md:block text-xl font-semibold"><p>Reimagine urban</p></div>
+							<div class="hidden md:block text-stone-400"><p>"Curabitur libero in ipsum portitor consequat. Aliquam et commodo lectus, nec <br>consequat neque Sed accumsan urna. Phasellus sed consequat ex. Etiam eget <br> magna laoreet, efficitur dolor consequat, tristique ligula."</p></div>
+						</div>
+					</div>
+					<div class="hidden md:block md:w-[40%] ">
+						<div  class="md:flex md:justify-evenly md:items-center md:content-center ">
+							<div class="p-2"><img src="/images/thesis-fisma.jpg" alt=""></div>
+							<div>
+								<p class="md:text-2xl ">Fisma Design and Prototype</p>
+								<p class="md:text-slate-400 md:mt-3">Design showcase of new prototype product</p>
+							</div>
+						</div>
+						<div class="md:flex md:justify-evenly md:items-center md:content-center ">
+							<div class="p-2"><img src="/images/thesis-now-and-then.jpg" alt=""></div>
+							<div>
+								<p class="md:text-2xl ">Now and than</p>
+								<p class="md:text-slate-400 md:mt-3">Research study about New York</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</main>
-		<footer class="m-4">
-			<p class="text-stone-400">© 2016 Colmar Academy. All right reserved</p>
+		<footer class="m-4 md:flex md:justify-between md:items-center md:m-4">
+			<div >
+			<p class="text-stone-400 ">© 2016 Colmar Academy. All right reserved</p>
+			</div>
+			<div class="hidden md:block">
+				<p class="text-stone-400 ">Termas Privacy</p>
+			</div>
 		</footer>
 	</body>
 </html>
