@@ -29,22 +29,66 @@
 	</head>
 
 	<body class="w-screen min-h-dvh font-inter">
-		<header>
-			<nav>
-				<ul class="flex justify-evenly items-center">
-					<li><a href=""></a><img src="/images/ic-logo.svg" alt="ic-logo"></li>
-					<li><a href=""></a><img src="/images/ic-on-campus.svg" alt="ic-on-campus"></li>
-					<li><a href=""></a><img src="/images/ic-online.svg" alt="ic-online"></li>
-					<li><a href=""></a><img src="/images/ic-login.svg" alt="ic-login"></li>
-				</ul>
+		<header >
+			<nav class="hidden">
+				<div class="flex justify-evenly items-center">
+					<div class="flex justify-items-start items-center">
+						<a href=""></a>
+							<img src="/images/ic-logo.svg" alt="ic-logo" >
+						<p class="hidden md:block">COLMAR ACADEMY</p>
+					</div>
+					<div>
+						<a href=""></a>
+							<img src="/images/ic-on-campus.svg" alt="ic-on-campus" class="md:hidden">
+							<p class="hidden md:block">On campus</p>
+					</div>
+					<div>
+						<a href=""></a>
+							<img src="/images/ic-online.svg" alt="ic-online" class="md:hidden">
+						<div>
+							<p class="hidden md:block">Online For companies</p>
+						</div>
+					</div>
+					<div class="px-6">
+						<a href=""></a>
+							<img src="/images/ic-login.svg" alt="ic-login" class="md:hidden">
+						<p class="hidden md:block" >Sign in</p>
+					</div>
+				</div>
+			</nav>
+			<nav class="md:hidden">
+				<div class="flex justify-evenly items-center">
+					<div class="flex justify-items-start items-center">
+						<a href=""></a>
+							<img src="/images/ic-logo.svg" alt="ic-logo" >
+						<p class="hidden md:block">COLMAR ACADEMY</p>
+					</div>
+					<div>
+						<a href=""></a>
+							<img src="/images/ic-on-campus.svg" alt="ic-on-campus" class="md:hidden">
+							<p class="hidden md:block">On campus</p>
+					</div>
+					<div>
+						<a href=""></a>
+							<img src="/images/ic-online.svg" alt="ic-online" class="md:hidden">
+						<div>
+							<p class="hidden md:block">Online For companies</p>
+						</div>
+					</div>
+					<div class="px-6">
+						<a href=""></a>
+							<img src="/images/ic-login.svg" alt="ic-login" class="md:hidden">
+						<p class="hidden md:block" >Sign in</p>
+					</div>
+				</div>
 			</nav>
 		</header>
 		<main>
-			<section class="bg-slate-200" p-4
-			>
+			<section class="bg-slate-200 md:flex md:justify-evenly items-center" >
 				<div>
 					<img src="/images/banner.jpg" alt="peopleReadingBook"></img>
 				</div>
+				<div class="flex flex-wrap flex-col">
 					<div class="pl-4 pt-4 text-2xl font-bold">
 						<p >Learn something <br class="">new everyday</p>
 					</div>
@@ -54,6 +98,7 @@
 					<div class="flex justify-center items-center pt-3 px-4 ">
 						<buttom class="w-full p-4 text-center  bg-slate-500 text-stone-50 mb-8">Start here</buttom>
 					</div>
+				</div>
 			</section>
 			<section class="p-4">
 				<div>
@@ -85,22 +130,22 @@
 				<p class="pt-4 text-4xl font-medium ">Start learning</p>
 				<div class="w-full p-4">
 				<buttom class="w-full py-4 m-2">
-					<p class="w-full p-4 bg-gray-200 text-stone-900">Software engigeering</p>
+					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Software engigeering</p>
 				</buttom>
 				<buttom class="w-full py-4 m-2">
-					<p class="w-full p-4 bg-gray-200 text-stone-900">Computer art</p>
+					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Computer art</p>
 				</buttom>
 				<buttom class="w-full py-4 m-2">
-					<p class="w-full p-4 bg-gray-200 text-stone-900">Design</p>
+					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Design</p>
 				</buttom>
 				<buttom class="w-full py-4 m-2">
-					<p class="w-full p-4 bg-gray-200 text-stone-900">Data</p>
+					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Data</p>
 				</buttom>
 				<buttom class="w-full py-4 m-2" >
-					<p class="w-full p-4 bg-gray-200 text-stone-900">Businees</p>
+					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Businees</p>
 				</buttom>
 				<buttom class="w-full py-4 m-2" >
-					<p class="w-full p-4 bg-gray-200 text-stone-900">Marketing</p>
+					<p class="w-full p-4 bg-gray-200 text-stone-900 font-medium">Marketing</p>
 				</buttom>
 				</div>
 			</section>
