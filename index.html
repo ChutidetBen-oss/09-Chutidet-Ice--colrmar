@@ -28,7 +28,7 @@
 		</style>
 	</head>
 
-	<body class="w-screen min-h-dvh">
+	<body class="w-screen min-h-dvh font-inter">
 		<header>
 			<nav>
 				<ul class="flex justify-evenly items-center">
@@ -40,63 +40,79 @@
 			</nav>
 		</header>
 		<main>
-			<section>
+			<section class="bg-slate-200" p-4
+			>
 				<div>
 					<img src="/images/banner.jpg" alt="peopleReadingBook"></img>
 				</div>
-					<h1>Learn something <br class="">new everyday</h1>
-					<h2>Lorem ipsum dolor sit <br class="">amet consectetur adipisicing elit.</h2>
-					<buttom>Start here</buttom>
+					<div class="pl-4 pt-4 text-2xl font-bold">
+						<p >Learn something <br class="">new everyday</p>
+					</div>
+					<div class="pl-4 pt-8 pb-6 font-medium">
+					<p>Lorem ipsum dolor sit <br class="">amet consectetur adipisicing elit.</p>
+					</div>
+					<div class="flex justify-center items-center pt-3 px-4 ">
+						<buttom class="w-full p-4 text-center  bg-slate-500 text-stone-50 mb-8">Start here</buttom>
+					</div>
 			</section>
-			<section>
+			<section class="p-4">
 				<div>
 					<img src="/images/information-orientation-mobile.jpg" alt="">
 				</div>
-				<h3>Orientation</h3>
-				<h4></h4>
-				<button><a href="">Read more</a></button>
+				<div class="p-4">
+					<p class="text-2xl font-semibold">Orientation</p>
+					<p class="text-sm font-light text-stone-400 py-2">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+					<button class="text-blue-400"><a href="">Read more</a></button>
+				</div>
 				<div>
 					<img src="/images/information-campus-mobile.jpg" alt="">
 				</div>
-				<h3></h3>
-				<h4></h4>
-				<button><a href="">Read more</a></button>
+				<div class="p-4">
+				<p class="text-2xl font-semibold">Our campus</pc>
+				<p class="text-sm font-light text-stone-400 py-2">Find which campus is close by you</p>
+				<button class="text-blue-400"><a href="" >Read more</a></button>
+				</div>
 				<div>
 					<img src="/images/information-guest-lecture-mobile.jpg" alt="">
-				</div>
-				<h3></h3>
-				<h4></h4>
-				<button><a href="">Read more</a></button>
-			</section>
-			<section>
-				<h2>Start learning</h2>
-				<div>
-					<h3>Software engigeering</h3>
-				</div>
-				<div class="containor-text">
-					<h3>Computer art</h3>
-				</div>
-				<div class="containor-text">
-					<h3>Design</h3>
-				</div>
-				<div class="containor-text">
-					<h3>Data</h3>
-				</div>
-				<div class="containor-text" >
-					<h3>Businees</h3>
-				</div>
-				<div class="containor-text" >
-					<h3>Marketing</h3>
+				</div >
+				<div class="p-4">
+				<p class="text-2xl font-semibold">Special guest lecture</p>
+				<p class="text-sm font-light text-stone-400 py-2">Join a keynote with Oliver Sank about <br>music in medical treatment</p>
+				<button class="text-blue-400"><a href="">Read more</a></button>
 				</div>
 			</section>
+			<section class="flex justify-center items-center flex-col">
+				<p class="pt-4 text-4xl font-medium ">Start learning</p>
+				<div class="w-full p-4">
+				<buttom class="w-full py-4 m-2">
+					<p class="w-full p-4 bg-gray-200 text-stone-900">Software engigeering</p>
+				</buttom>
+				<buttom class="w-full py-4 m-2">
+					<p class="w-full p-4 bg-gray-200 text-stone-900">Computer art</p>
+				</buttom>
+				<buttom class="w-full py-4 m-2">
+					<p class="w-full p-4 bg-gray-200 text-stone-900">Design</p>
+				</buttom>
+				<buttom class="w-full py-4 m-2">
+					<p class="w-full p-4 bg-gray-200 text-stone-900">Data</p>
+				</buttom>
+				<buttom class="w-full py-4 m-2" >
+					<p class="w-full p-4 bg-gray-200 text-stone-900">Businees</p>
+				</buttom>
+				<buttom class="w-full py-4 m-2" >
+					<p class="w-full p-4 bg-gray-200 text-stone-900">Marketing</p>
+				</buttom>
+				</div>
+			</section>
 			<section>
-				<h2>
+				<p class="w-full p-4 text-center text-4xl font-medium bg-gray-200 text-stone-900 ">Thesis exhibits</p>
+				<p>
 					<video src="/videos/thesis.mp4"></video>
-				</h2>
+				</p>
 			</section>
 		</main>
-		<footer>
-
+		<footer class="m-4">
+			<p class="text-stone-400">© 2016 Colmar Academy. All right reserved</p>
 		</footer>
 	</body>
 </html>
